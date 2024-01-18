@@ -107,30 +107,30 @@ function Judge() {
         <div class="btngroup">
           <n-button @click="changeCompoment('home')" :class="{'btn-1':getStatus('home')}" class="btnn" size="large"
                     quaternary>
-            Home
+            Homes
           </n-button>
           <n-button @click="changeCompoment('product')" :class="{'btn-1':getStatus('product')}" class="btnn"
                     size="large"
                     quaternary>
-            Product
+            Products
           </n-button>
           <n-button @click="changeCompoment('priceing')" :class="{'btn-1':getStatus('priceing')}" class="btnn"
                     size="large"
                     quaternary>
-            Pricing
+            Pricings
           </n-button>
           <n-button @click="changeCompoment('feature')" :class="{'btn-1':getStatus('feature')}" class="btnn"
                     size="large"
                     quaternary>
-            Feature
+            Features
           </n-button>
           <n-button @click="changeCompoment('aboutus')" :class="{'btn-1':getStatus('aboutus')}" class="btnn "
                     size="large" quaternary>
-            About Us
+            About Uss
           </n-button>
           <n-button @click="changeCompoment('contact')" :class="{'btn-1':getStatus('contact')}" class="btnn "
                     size="large" quaternary>
-            Contact
+            Contacts
           </n-button>
 
         </div>
